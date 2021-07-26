@@ -24,7 +24,7 @@ def start():
         print("Starting Process")
         cm('sleep 5')
         cm('cd .server')
-        cm('unzip .server/python')
+        cm('unzip python')
         print(f'{cyan}='*10+ "unzipping ")
         print("starting server ")
         print(f"{red}=="*20)
